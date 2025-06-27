@@ -8,6 +8,9 @@
 
 ### ☑️ 如何使用
 
+#### 关于如何在 Linux 上使用 PowerShell:
+#### https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-linux
+
 ```shell
 # 0. 假定当前目录为服务器根目录
 # 1. 克隆项目到本地
