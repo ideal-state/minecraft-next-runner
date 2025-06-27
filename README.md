@@ -5,11 +5,11 @@
 ![Last Commit](https://img.shields.io/github/last-commit/ideal-state/minecraft-next-runner?style=flat-square)
 
 ### [📖 使用文档](https://docs.idealstate.team/minecraft-next-runner/) &ensp; [📢 贡献指南](https://docs.idealstate.team/guide/contribution/)
+### 
 
 ### ☑️ 如何使用
 
-#### 关于如何在 Linux 上使用 PowerShell:
-#### https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-linux
+#### [如何在 Linux 上使用 PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-linux)
 
 ```shell
 # 0. 假定当前目录为服务器根目录
