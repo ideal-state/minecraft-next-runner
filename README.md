@@ -1,11 +1,11 @@
 # <img align="left" src="logo.svg" height="192px" alt="logo"/> Minecraft Next Runner
 
 ![License](https://img.shields.io/github/license/ideal-state/minecraft-next-runner?&style=flat-square)
+
 ![Contributors](https://img.shields.io/github/contributors-anon/ideal-state/minecraft-next-runner?style=flat-square&label=contributors)
 ![Last Commit](https://img.shields.io/github/last-commit/ideal-state/minecraft-next-runner?style=flat-square)
 
 ### [📖 使用文档](https://docs.idealstate.team/minecraft-next-runner/) &ensp; [📢 贡献指南](https://docs.idealstate.team/guide/contribution/)
-### 
 
 ### ☑️ 如何使用
 
