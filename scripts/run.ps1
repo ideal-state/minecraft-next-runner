@@ -74,7 +74,7 @@ function Main {
 
 function Show-Banner {
     param()
-    Set-Location -Path $PSScriptRoot
+    Set-Location -Path $([WildcardPattern]::Escape($PSScriptRoot))
     $Host.UI.RawUI.ForegroundColor = "Green"
     Write-Host "------------------------------------------------------------"
     Write-Host " ███╗   ██╗ ███████╗ ██╗  ██╗ ████████╗"
@@ -230,7 +230,7 @@ function Start-Server {
         }
     }
     $arguments += "-jar", "$ServerCore", "nogui"
-    $process = Start-Process -FilePath $ServerJava -ArgumentList $arguments -Wait -PassThru -NoNewWindow
+    $process = Start-Process -WorkingDirectory $([WildcardPattern]::Escape($(Get-Location))) -FilePath $ServerJava -ArgumentList $arguments -Wait -PassThru -NoNewWindow
 
     Set-HostColor
     Write-Host ""
