@@ -74,6 +74,7 @@ function Main {
 
 function Show-Banner {
     param()
+    Set-Location -Path $PSScriptRoot
     $Host.UI.RawUI.ForegroundColor = "Green"
     Write-Host "------------------------------------------------------------"
     Write-Host " ███╗   ██╗ ███████╗ ██╗  ██╗ ████████╗"
@@ -86,6 +87,7 @@ function Show-Banner {
     Write-Host " https://github.com/ideal-state/minecraft-next-runner"
     Write-Host ""
     Write-Host " [服务器名称]`t| $(Limit-Text -Text $ServerName)"
+    Write-Host " [工作目录]`t| $(Get-Location)"
     Write-Host " [Java 路径]`t| $(Limit-Text -Delimiter "\" -Text $((Get-Command $ServerJava).Source))"
     Write-Host " [核心路径]`t| $(Limit-Text -Delimiter "\" -Text $ServerCore)"
     Write-Host " [最大内存]`t| $(Limit-Text -Text $ServerMemory)"
